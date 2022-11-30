@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_calculator/HomePage.dart';
+import 'package:flutter_calculator/home_page.dart';
+import 'package:flutter_calculator/home_page_bloc.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home:  const HomePageBloc(),
     );
   }
 }
